@@ -1,0 +1,102 @@
+.chat-button-theme-bubble {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+}
+.chat-button-theme-bubble .chat-button {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 100%;
+    cursor: pointer;
+    -webkit-box-shadow: 0 0 20px rgba(0,0,0,.2);
+    box-shadow: 0 0 20px rgba(0,0,0,.2);
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+.chat-button-theme-bubble .chat-button svg.chat-icon {
+    -webkit-transition: opacity .2s;
+    transition: opacity .2s;
+    margin: 12px 0 0 13px;
+    width: 36px;
+    height: 36px;
+}
+#chat .chat-window {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    bottom: 40px;
+    left: 20px;
+    display: block;
+    float: right;
+}
+#chat .chat-window .chat-window-wrapper {
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    -webkit-box-shadow: 0 16px 18px rgba(0,0,0,.2)!important;
+    box-shadow: 0 16px 18px rgba(0,0,0,.2)!important;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+#chat .chat-window .chat-window-wrapper .window-content-wrapper {
+    width: 100%;
+    height: 100%;
+}
+#chat .chat-window .chat-window-wrapper .window-close {
+    z-index: 8;
+    position: absolute;
+    display: block;
+    width: 26px;
+    height: 26px;
+    right: 13px;
+    top: 10px;
+    padding: 3px;
+    border-radius: 100%;
+}
+#chat .chat-window .chat-window-wrapper .window-close svg {
+    -webkit-transition: all .2s;
+    transition: all .2s;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    cursor: pointer;
+}
+#chat .chat-window .powered {
+    z-index: 2;
+    color: #fff;
+    position: absolute;
+    bottom: -24px;
+    left: 0;
+    right: 0;
+    text-align: right;
+    font-size: 12px;
+    text-shadow: 0 1.16px 11px rgba(0,0,0,.7);
+    font-weight: 600;
+    -webkit-backface-visibility: hidden;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    cursor: pointer;
+}
+.chatbot-chat{
+    -webkit-transition: all .5s;
+    transition: all .5s;
+
+}
+.chat-window a {
+    text-decoration: none;
+}
+.chatbot-chat iframe {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.chat-button-theme-bubble{
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
